@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
             ),
             // Row : 가로
             Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Column(
                   children: [
