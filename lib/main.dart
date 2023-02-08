@@ -47,7 +47,10 @@ class MyApp extends StatelessWidget {
                     ],
                   )
                 ],
-              )
+              ),
+              SizedBox(
+                height: 120,
+              ),
             ],
           ),
         ),
