@@ -70,6 +70,17 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              SizedBox(
+                height: 20,
+              ),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(color: Colors.amber),
+                    child: Text('Transfer'),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
