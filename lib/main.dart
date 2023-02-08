@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      'Hey, Kim',
+                      'Hey, Selena',
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 38,
-                        fontWeight: FontWeight.w600,
+                        fontSize: 28,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
                     Text(
