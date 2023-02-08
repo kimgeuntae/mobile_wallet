@@ -59,6 +59,14 @@ class MyApp extends StatelessWidget {
                   color: Colors.white.withOpacity(0.8),
                 ),
               ),
+              Text(
+                '\$ 5 194 482',
+                style: TextStyle(
+                  fontSize: 44,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
         ),
