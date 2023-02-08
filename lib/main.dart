@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
                       'Hey, Kim',
