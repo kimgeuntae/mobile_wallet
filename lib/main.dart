@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 20),
           // Column : 세로
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(
                 height: 80,
