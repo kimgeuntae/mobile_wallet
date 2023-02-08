@@ -51,6 +51,13 @@ class MyApp extends StatelessWidget {
               SizedBox(
                 height: 120,
               ),
+              Text(
+                'Total Balance',
+                style: TextStyle(
+                  fontSize: 22,
+                  color: Colors.white.withOpacity(0.8),
+                ),
+              ),
             ],
           ),
         ),
