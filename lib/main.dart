@@ -71,12 +71,15 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Row(
                 children: [
                   Container(
-                    decoration: BoxDecoration(color: Colors.amber),
+                    decoration: BoxDecoration(
+                      color: Colors.amber,
+                      borderRadius: BorderRadius.circular(45),
+                    ),
                     child: Padding(
                       padding: EdgeInsets.symmetric(
                         vertical: 20,
@@ -85,7 +88,7 @@ class MyApp extends StatelessWidget {
                       child: Text(
                         'Transfer',
                         style: TextStyle(
-                          fontSize: 22,
+                          fontSize: 20,
                         ),
                       ),
                     ),
