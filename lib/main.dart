@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wallet',
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Color(0xFF181818),
         body:
             // Column : 세로
             Column(
