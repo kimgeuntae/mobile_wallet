@@ -18,6 +18,9 @@ class MyApp extends StatelessWidget {
             // Column : 세로
             Column(
           children: [
+            const SizedBox(
+              height: 80,
+            ),
             // Row : 가로
             Row(
               children: [
