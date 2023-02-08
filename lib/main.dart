@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wallet',
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: Center(
           child: Text('Hello world!'),
         ),
