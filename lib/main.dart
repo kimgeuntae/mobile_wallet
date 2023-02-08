@@ -14,8 +14,32 @@ class MyApp extends StatelessWidget {
       title: 'Wallet',
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: Center(
-          child: Text('Hello world!'),
+        body:
+            // Column : 세로
+            Column(
+          children: [
+            // Row : 가로
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Text(
+                      'Hey, Kim',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      'Welcome back',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            )
+          ],
         ),
       ),
     );
