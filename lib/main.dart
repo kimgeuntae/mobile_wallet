@@ -130,6 +130,7 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(30),
                   // 카드 내용
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -168,10 +169,13 @@ class MyApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const Icon(
-                        Icons.euro_rounded,
-                        color: Colors.white,
-                        size: 98,
+                      Transform.scale(
+                        scale: 2,
+                        child: const Icon(
+                          Icons.euro_rounded,
+                          color: Colors.white,
+                          size: 98,
+                        ),
                       ),
                     ],
                   ),
