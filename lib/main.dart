@@ -170,11 +170,15 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                       Transform.scale(
-                        scale: 2,
-                        child: const Icon(
-                          Icons.euro_rounded,
-                          color: Colors.white,
-                          size: 98,
+                        scale: 2.2,
+                        child: Transform.translate(
+                          // 아이콘 위치 조정
+                          offset: const Offset(8, 15),
+                          child: const Icon(
+                            Icons.euro_rounded,
+                            color: Colors.white,
+                            size: 88,
+                          ),
                         ),
                       ),
                     ],
