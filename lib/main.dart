@@ -125,23 +125,33 @@ class MyApp extends StatelessWidget {
                 decoration: const BoxDecoration(
                   color: Color(0xFF1F2123),
                 ),
-                child: Row(
-                  children: [
-                    Column(
-                      children: [
-                        const Text('Euro'),
-                        const SizedBox(
-                          height: 5,
-                        ),
-                        Row(
-                          children: const [
-                            Text('6 428'),
-                            Text('EUR'),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
+                child: Padding(
+                  padding: const EdgeInsets.all(15),
+                  child: Row(
+                    children: [
+                      Column(
+                        children: [
+                          const Text(
+                            'Euro',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          const SizedBox(
+                            height: 5,
+                          ),
+                          Row(
+                            children: const [
+                              Text('6 428'),
+                              Text('EUR'),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
