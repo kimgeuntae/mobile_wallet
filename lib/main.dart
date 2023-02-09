@@ -144,9 +144,21 @@ class MyApp extends StatelessWidget {
                             height: 5,
                           ),
                           Row(
-                            children: const [
-                              Text('6 428'),
-                              Text('EUR'),
+                            children: [
+                              const Text(
+                                '6 428',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                ),
+                              ),
+                              Text(
+                                'EUR',
+                                style: TextStyle(
+                                  color: Colors.white.withOpacity(0.8),
+                                  fontSize: 20,
+                                ),
+                              ),
                             ],
                           ),
                         ],
