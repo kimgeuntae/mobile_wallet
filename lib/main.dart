@@ -122,6 +122,8 @@ class MyApp extends StatelessWidget {
               ),
               // 카드
               Container(
+                // 컨테이너 밖으로 넘어갈 경우 처리
+                clipBehavior: Clip.hardEdge,
                 decoration: BoxDecoration(
                   color: const Color(0xFF1F2123),
                   borderRadius: BorderRadius.circular(20),
@@ -173,7 +175,7 @@ class MyApp extends StatelessWidget {
                         scale: 2.2,
                         child: Transform.translate(
                           // 아이콘 위치 조정
-                          offset: const Offset(8, 15),
+                          offset: const Offset(-5, 12),
                           child: const Icon(
                             Icons.euro_rounded,
                             color: Colors.white,
