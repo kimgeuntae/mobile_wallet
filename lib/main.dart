@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Wallet',
       home: Scaffold(
         backgroundColor: const Color(0xFF181818),
+        // 화면 스크롤 추가
         body: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
