@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(
-                height: 80,
+                height: 30,
               ),
               // Row : 가로
               // 사용자 정보
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 50,
+                height: 30,
               ),
               // 잔액 정보
               Text(
@@ -128,6 +128,13 @@ class MyApp extends StatelessWidget {
                 amount: '6 428',
                 icon: Icons.euro_rounded,
                 isInverted: false,
+              ),
+              const CurrencyCard(
+                name: 'Bitcoin',
+                code: 'BTC',
+                amount: '9 785',
+                icon: Icons.currency_bitcoin,
+                isInverted: true,
               ),
             ],
           ),
