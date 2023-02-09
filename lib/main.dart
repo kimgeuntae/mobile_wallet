@@ -116,7 +116,34 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ],
-              )
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              // 카드
+              Container(
+                decoration: const BoxDecoration(
+                  color: Color(0xFF1F2123),
+                ),
+                child: Row(
+                  children: [
+                    Column(
+                      children: [
+                        const Text('Euro'),
+                        const SizedBox(
+                          height: 5,
+                        ),
+                        Row(
+                          children: const [
+                            Text('6 428'),
+                            Text('EUR'),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
