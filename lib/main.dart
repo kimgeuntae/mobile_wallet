@@ -127,10 +127,12 @@ class MyApp extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(15),
+                  padding: const EdgeInsets.all(30),
                   child: Row(
                     children: [
+                      // 카드 내용
                       Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
                             'Euro',
@@ -151,6 +153,9 @@ class MyApp extends StatelessWidget {
                                   color: Colors.white,
                                   fontSize: 20,
                                 ),
+                              ),
+                              const SizedBox(
+                                width: 5,
                               ),
                               Text(
                                 'EUR',
