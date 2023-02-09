@@ -127,6 +127,7 @@ class MyApp extends StatelessWidget {
                 code: 'EUR',
                 amount: '6 428',
                 icon: Icons.euro_rounded,
+                isInverted: false,
               ),
             ],
           ),
