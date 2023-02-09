@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
                 height: 80,
               ),
               // Row : 가로
+              // 사용자 정보
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 50,
               ),
+              // 잔액 정보
               Text(
                 'Total Balance',
                 style: TextStyle(
@@ -74,6 +76,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
+              // 업무 버튼
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: const [
@@ -92,6 +95,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 50,
               ),
+              // 지갑 정보
               Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
