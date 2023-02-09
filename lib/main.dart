@@ -122,8 +122,9 @@ class MyApp extends StatelessWidget {
               ),
               // 카드
               Container(
-                decoration: const BoxDecoration(
-                  color: Color(0xFF1F2123),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF1F2123),
+                  borderRadius: BorderRadius.circular(20),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(15),
